@@ -1,0 +1,18 @@
+function doWorm(whiskey, wormDance){
+	if(typeof whiskey !== 'number'){
+		return 'whiskey sour';
+	}
+    if(whiskey >=3){  
+    	return wormDance();
+    } else {
+    	whiskey++;
+    	if(typeof wormDance === 'function'){
+    		return doWorm(whiskey, wormDance);
+    	} else {
+    		return 'wormDance failed';
+    	}
+    }
+}
+function wormDance(){
+	//wormDance code
+}
