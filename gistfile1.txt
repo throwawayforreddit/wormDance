@@ -16,3 +16,4 @@ function doWorm(whiskey, wormDance){
 function wormDance(){
 	//wormDance code
 }
+//will trade code 4 whiskey/job
