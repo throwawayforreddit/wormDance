@@ -1,7 +1,7 @@
 function doWorm(whiskey, wormDance){
-	if(typeof whiskey !== 'number'){
-		return 'whiskey sour';
-	}
+    if(typeof whiskey !== 'number'){
+	return 'whiskey sour';
+    }
     if(whiskey >=3){  
     	return wormDance();
     } else {
